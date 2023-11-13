@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DashboardAdminComponent } from './dashboard-admin/dashboard-admin.component';
+import { AuthComponent } from './auth/auth.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: 'dashboard', component:DashboardAdminComponent},
+  {path: 'auth', component:AuthComponent},
+  {path: '', redirectTo:'auth', pathMatch:'full'},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
