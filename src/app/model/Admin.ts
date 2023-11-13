@@ -5,5 +5,6 @@ export class Admin{
     password: string ="";
     profs = [];
     apprenants = [];
+    lobe = [];
     
 }
