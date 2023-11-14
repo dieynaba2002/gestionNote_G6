@@ -15230,7 +15230,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {
-  border-color: #2c2e33 #2c2e33 #2c2e33;
+  /* border-color: #2c2e33 #2c2e33 #2c2e33;  */
 }
 
 .nav-tabs .nav-link.disabled {
@@ -15731,7 +15731,8 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #cccccc;
+  background-color: #ffffff;
+  box-shadow: 10px 5px 35px #e0dfdf;
   background-clip: border-box;
   border-radius: 0.25rem;
 }
@@ -30428,12 +30429,12 @@ div.tagsinput span.tag a {
 }
 
 .sidebar .nav:not(.sub-menu)>.nav-item:hover:not(.nav-category):not(.account-dropdown)>.nav-link {
-  background: #0f1015;
+  background: #CE6A6B;
   color: #ffffff;
 }
 
 .sidebar .nav .menu-items:nth-child(5n+1) .nav-link .menu-icon i {
-  color: #0090e7;
+  color: black;
 }
 
 .sidebar .nav .menu-items:nth-child(5n+2) .nav-link .menu-icon i {
